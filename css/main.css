@@ -1,0 +1,243 @@
+/*Background*/
+body {
+	background-image: url("../images/pineapple-edit.jpg");
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	position: fixed;
+}
+
+
+/**/
+/*Body*/
+.list-body {
+	width: 55%;
+	height: 1000px;
+	margin-left: 130px;
+}
+
+
+/**/
+/*Title*/
+.title {
+	text-align: center;
+}
+
+.title p {
+	font-family: "Boho Dingbats";
+	color: yellow;
+	font-size: 80px;
+	font-weight: lighter;
+	text-shadow: 2px 2px 3px #f06d06;
+	display: inline;
+}
+
+.title h1 {
+	font-family: "Hawaii";
+	color: white;
+	font-size: 90px;
+	font-weight: lighter;
+	text-shadow: 2px 2px 3px #f06d06;
+	display: inline;
+}
+
+
+/**/
+/*Entry Field*/
+.entryfield {
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+/**/
+/*Textbox*/
+.textbox {
+    padding: 1px 20px;
+    border: 0;
+    height: 25px;
+    width: 275px;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 1px 1px 0 0 #FFF, 5px 5px 40px 2px #BBB inset;
+    -moz-box-shadow: 1px 1px 0 0 #FFF, 5px 5px 40px 2px #BBB inset;
+    -webkit-box-shadow: 1px 1px 0 0 #FFF, 5px 5px 40px 2px #BBB inset;
+    -webkit-background-clip: padding-box;
+    transition: all 0.6s;
+    outline: 0;
+    display: inline;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textbox:hover {
+    background: #99ff66;
+    color: #414848;
+    border: 3px solid yellow;
+}
+
+.textbox:focus {
+    background: #99ff66;
+    color: #414848;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    outline: 0;
+    border: 3px solid yellow;
+}
+
+
+/**/
+/*Entry Button*/
+.entry-btn {
+  background: #ff3ba7;
+  background-image: -webkit-linear-gradient(top, #ff3ba7, #9e1462);
+  background-image: -moz-linear-gradient(top, #ff3ba7, #9e1462);
+  background-image: -ms-linear-gradient(top, #ff3ba7, #9e1462);
+  background-image: -o-linear-gradient(top, #ff3ba7, #9e1462);
+  background-image: linear-gradient(to bottom, #ff3ba7, #9e1462);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 2px 7px #666666;
+  -webkit-box-shadow: 1px 1px 3px #666666;
+  -moz-box-shadow: 1px 1px 3px #666666;
+  box-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 31px;
+  padding: 0px 7px 0px 7px;
+  text-decoration: none;
+  display: inline;
+  vertical-align: middle;
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.entry-btn:hover {
+  background: #de3e9e;
+  background-image: -webkit-linear-gradient(top, #de3e9e, #910a5d);
+  background-image: -moz-linear-gradient(top, #de3e9e, #910a5d);
+  background-image: -ms-linear-gradient(top, #de3e9e, #910a5d);
+  background-image: -o-linear-gradient(top, #de3e9e, #910a5d);
+  background-image: linear-gradient(to bottom, #de3e9e, #910a5d);
+  text-decoration: none;
+ }
+
+
+/**/
+/*Link*/
+ a:link, a:visited { 
+ 	color: inherit;
+    text-decoration: none;
+    cursor: auto;
+}
+
+
+/**/
+/*Container 1*/
+.to-buy-container {
+	background-color: white;
+	width: 920px;
+	height: 300px;
+	padding: 10px;
+	opacity: 0.5;
+	margin-top: 20px;
+	position: absolute;
+	z-index: -1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buy-header {
+	background-color: #0dff00;
+	background-image: -webkit-linear-gradient(top, #0dff00, #158a26);
+    background-image: -moz-linear-gradient(top, #0dff00, #158a26);
+    background-image: -ms-linear-gradient(top, #0dff00, #158a26);
+    background-image: -o-linear-gradient(top, #0dff00, #158a26);
+    background-image: linear-gradient(to bottom, #0dff00, #158a26);
+	width: 926px;
+	height: 50px;
+	padding: 2px 7px 5px 7px;
+	margin-top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: "A DAY WITHOUT SUN";
+	font-size: 55px;
+	color: white;
+	text-shadow: 2px 2px 4px #2b2a2b;
+}
+
+/**/
+/*Container 2*/
+.were-bought-container {
+	background-color: white;
+	width: 920px;
+	height: 300px;
+	padding: 10px;
+	opacity: 0.5;
+	margin-top: 280px;
+	position: absolute;
+	z-index: -1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bought-header {
+	background-color: #f68709;
+	background-image: -webkit-linear-gradient(top, #f68709, #a35405);
+    background-image: -moz-linear-gradient(top, #f68709, #a35405);
+    background-image: -ms-linear-gradient(top, #f68709, #a35405);
+    background-image: -o-linear-gradient(top, #f68709, #a35405);
+    background-image: linear-gradient(to bottom, #f68709, #a35405);
+	width: 926px;
+	height: 50px;
+	padding: 2px 7px 5px 7px;
+	margin-top: 280px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: "A DAY WITHOUT SUN";
+	font-size: 55px;
+	color: white;
+	text-shadow: 2px 2px 4px #2b2a2b;
+}
+
+/**/
+/*Clear Button*/
+.clear-area {
+	margin-top: 280px;
+	text-align: center;
+}
+
+.clear-btn {
+  background: #0086e0;
+  background-image: -webkit-linear-gradient(top, #0086e0, #064a75);
+  background-image: -moz-linear-gradient(top, #0086e0, #064a75);
+  background-image: -ms-linear-gradient(top, #0086e0, #064a75);
+  background-image: -o-linear-gradient(top, #0086e0, #064a75);
+  background-image: linear-gradient(to bottom, #0086e0, #064a75);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 1px 1px 3px #666666;
+  -moz-box-shadow: 1px 1px 3px #666666;
+  box-shadow: 1px 1px 3px #666666;
+  font-family: "A DAY WITHOUT SUN";
+  color: #ffffff;
+  font-size: 35px;
+  padding: 1px 20px 0 20px;
+  border: solid #ffff00 2px;
+  text-shadow: 2px 2px 4px #2b2a2b;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clear-btn:hover {
+  background: #047fcc;
+  background-image: -webkit-linear-gradient(top, #047fcc, #003657);
+  background-image: -moz-linear-gradient(top, #047fcc, #003657);
+  background-image: -ms-linear-gradient(top, #047fcc, #003657);
+  background-image: -o-linear-gradient(top, #047fcc, #003657);
+  background-image: linear-gradient(to bottom, #047fcc, #003657);
+  text-decoration: none;
+}
