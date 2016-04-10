@@ -3,9 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+	<script src="js/jquery.js"></script>
 	<title>Shopping List</title>
 </head>
 <body>
+<div id="bkground">
 	<div class="list-body">
 
 		<!-- Title -->
@@ -19,11 +23,15 @@
 			<input class="textbox"type="text" placeholder="Enter Shopping Item"> 
 
 			<!-- Entry Button -->
-			<div class="entry-btn"><a href="">+</a></div> 
+			<div class="entry-btn">+</div> 
 		</div>
 
 		<!-- Container 1 -->
-		<div class="to-buy-container"></div>
+		<div class="to-buy-container">
+			<div class="buy-list-container">
+				<ul class="buy-list"></ul>
+			</div>
+		</div>
 		<div class="buy-header">Things to Buy</div>	
 		
 		<!-- Container 2 -->
@@ -35,5 +43,6 @@
 			<div class="clear-btn"><a href="">Clear List</a></div>
 		</div>	
 	</div>
+</div>
 </body>
 </html>
