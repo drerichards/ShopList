@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  // gonna use enter as well as button for user conveniency
+// gonna use enter as well as button for user conveniency
   $('#textbox').keyup(function(event){
     if(event.keyCode == 13) {
       event.preventDefault();
@@ -15,12 +15,13 @@ $(document).ready(function () {
     event.preventDefault();
 
     if($.trim($('#textbox').val())) {
-      $('<li class="items"></li>').appendTo('#list').html('<span><img class="basket" src="images/basket.png"/>' + txtval + '</span><img class="trash" src="images/delete.png"/>');
+      $('<li class="items"></li>').appendTo('#list').html('<span><img class="basket" src="images/basket.png"/>' + 
+        txtval + '</span><img class="trash" src="images/delete.png"/>');
       document.getElementById('textbox').value = '';
     };
   });
 
-  // show cross icon over item
+// show delete icon over item
   $('#list').on('mouseenter', 'li', function() {
     $(this).children('.trash').toggleClass('show');
   });
@@ -33,23 +34,31 @@ $(document).ready(function () {
   $('#list').on('click', '.trash', function(e) {
     e.preventDefault(); 
     var select_item = $(this).closest('li').text();
-    
     $(this).parent().remove();
-    $('<li class="b_items"></li>').appendTo('#bought').html('<span><img class="check" src="images/check.png"/>' + select_item + '</span>');
-    
   });
 
-//clear list
-$('.clear-btn').click(function(event) {
-    // event.preventDefault();
-    // $('#list').parent().remove;
-    // alert("");
-});
-
+// remove item add to bought
+  $('#list').on('click', '.basket', function(e) {
+    e.preventDefault(); 
+    var selectItem = $(this).closest('li').text();
+    $('<li class="b_items"></li>').appendTo('#bought').html('<span><img class="check" src="images/check.png"/>' + selectItem + '</span>');
+    $(this).parent().remove();
+    $('.show').remove();
+    $('#list li:empty').remove();
+  });
 
 // sort items
-  // $('#list').sort({ axis: "y" });
+  $('#list').sortable({ axis: "y" });
 
+// clear list
+  $('#clear-btn').click(function() {
+    $('#list').empty();
+    $('#bought').empty();
+  });
 
+// another way to clear-list using raw JavaScript
+// $('#clear-btn').click(function() {
+// document.getElementById('bought').innerHTML = "";
+// });
 
 });

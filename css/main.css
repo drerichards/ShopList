@@ -1,34 +1,34 @@
 @font-face { 
-	font-family: Boho Dingbats; src: url("../fonts/Boho_Dingbats.otf"); 
+  font-family: Boho Dingbats; src: url("../fonts/Boho_Dingbats.otf"); 
 }
 
 @font-face { 
-	font-family: A DAY WITHOUT SUN; src: url("../fonts/A_DAY_WITHOUT_SUN.otf"); 
+  font-family: A DAY WITHOUT SUN; src: url("../fonts/A_DAY_WITHOUT_SUN.otf"); 
 }
 
 @font-face { 
-	font-family: Hawaii; src: url("../fonts/Hawaii.ttf"); 
+  font-family: Hawaii; src: url("../fonts/Hawaii.ttf"); 
 }
 
 
 /**/
 /*Background*/
 #bkground {
-	background-image: url("../images/pineapple-edit.jpg");
-	background-size: cover;
-	background-position: center bottom;
-	width: 102%;
-	height: 101%;
-	background-repeat: no-repeat;
-	position: fixed;
-	margin: -8.5px 0 0 -8.5px;
+  background-image: url("../images/pineapple-edit.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  width: 102%;
+  height: 101%;
+  background-repeat: no-repeat;
+  position: fixed;
+  margin: -8.5px 0 0 -8.5px;
 }
 
 
 /**/
 /*Link*/
 a:link, a:visited { 
- 	color: inherit;
+  color: inherit;
     text-decoration: none;
     cursor: auto;
 }
@@ -37,53 +37,53 @@ a:link, a:visited {
 /**/
 /*Ordered Lists*/
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 li {
-	margin: 1% 0;
+  margin: 1% 0;
 }
 
 
 /**/
 /*Body*/
 .list-body {
-	width: 55%;
-	height: 100%;
-	margin: 0.5% 0 0 10.5%;
+  width: 55%;
+  height: 100%;
+  margin: 0.5% 0 0 10.5%;
 }
 
 
 /**/
 /*Title*/
 .title {
-	text-align: center;
+  text-align: center;
 }
 
 .title p {
-	font-family: "Boho Dingbats";
-	color: yellow;
-	font-size: 80px;
-	font-weight: lighter;
-	text-shadow: 2px 2px 3px #f06d06;
-	display: inline;
+  font-family: "Boho Dingbats";
+  color: yellow;
+  font-size: 80px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 3px #f06d06;
+  display: inline;
 }
 
 .title h1 {
-	font-family: "Hawaii";
-	color: white;
-	font-size: 6rem;
-	font-weight: lighter;
-	text-shadow: 2px 2px 3px #f06d06;
-	display: inline;
+  font-family: "Hawaii";
+  color: white;
+  font-size: 6rem;
+  font-weight: lighter;
+  text-shadow: 2px 2px 3px #f06d06;
+  display: inline;
 }
 
 
 /**/
 /*Entry Field*/
 .entryfield {
-	text-align: center;
-	margin-top: 0.75%;
+  text-align: center;
+  margin-top: 0.75%;
 }
 .entryfield .entry-btn {
   display: inline;
@@ -193,13 +193,13 @@ li {
 }
 
 .to-buy-container {
-	background-color: white;
-	width: 54.35%;
-	height: 30%;
-	opacity: 0.5;
+  background-color: white;
+  width: 54.35%;
+  height: 30%;
+  opacity: 0.5;
   position: absolute;
-	z-index: -1;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: -1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -229,22 +229,22 @@ li {
 }
 
 .were-bought-container {
-	background-color: white;
-	width: 54.35%;
-	height: 30%;
-	opacity: 0.5;
-	position: absolute;
-	z-index: -1;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  width: 54.35%;
+  height: 30%;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 /**/
 /*Clear Button*/
 .clear-area {
-	margin-top: 1%;
-	text-align: center;
-	z-index: -1;
+  margin-top: 1%;
+  text-align: center;
+  z-index: -1;
 }
 
 .clear-btn {
@@ -326,6 +326,7 @@ li {
   color: yellow;
   -webkit-animation: move 1s 1; /* Chrome, Safari, Opera */
     animation: move 1s 1;
+   cursor: pointer;
 }
 
 #bought li {
