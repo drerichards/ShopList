@@ -56,9 +56,4 @@ $(document).ready(function () {
     $('#bought').empty();
   });
 
-// another way to clear-list using raw JavaScript
-// $('#clear-btn').click(function() {
-// document.getElementById('bought').innerHTML = "";
-// });
-
 });

@@ -1,13 +1,13 @@
-@font-face { 
+@font-face {
   font-family: Boho Dingbats; src: url("../fonts/Boho_Dingbats.otf"); 
 }
 
-@font-face { 
-  font-family: A DAY WITHOUT SUN; src: url("../fonts/A_DAY_WITHOUT_SUN.otf"); 
+@font-face {
+  font-family: A DAY WITHOUT SUN; src: url("../fonts/A_DAY_WITHOUT_SUN.otf");
 }
 
-@font-face { 
-  font-family: Hawaii; src: url("../fonts/Hawaii.ttf"); 
+@font-face {
+  font-family: Hawaii; src: url("../fonts/Hawaii.ttf");
 }
 
 
@@ -27,7 +27,7 @@
 
 /**/
 /*Link*/
-a:link, a:visited { 
+a:link, a:visited {
   color: inherit;
     text-decoration: none;
     cursor: auto;
