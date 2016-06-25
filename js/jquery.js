@@ -6,7 +6,7 @@ $(document).ready(function () {
       event.preventDefault();
       $('.entry-btn').click();
     };
-  }); 
+  });
 
 // add item to list
   $('.entry-btn').click(function() {
@@ -15,7 +15,7 @@ $(document).ready(function () {
     event.preventDefault();
 
     if($.trim($('#textbox').val())) {
-      $('<li class="items"></li>').appendTo('#list').html('<span><img class="basket" src="images/basket.png"/>' + 
+      $('<li class="items"></li>').appendTo('#list').html('<span><img class="basket" src="images/basket.png"/>' +
         txtval + '</span><img class="trash" src="images/delete.png"/>');
       document.getElementById('textbox').value = '';
     };
@@ -25,21 +25,21 @@ $(document).ready(function () {
   $('#list').on('mouseenter', 'li', function() {
     $(this).children('.trash').toggleClass('show');
   });
-  
+
   $('#list').on('mouseleave', 'li', function() {
     $(this).children('.trash').toggleClass('show');
   });
 
 // remove item from list
   $('#list').on('click', '.trash', function(e) {
-    e.preventDefault(); 
+    e.preventDefault();
     var select_item = $(this).closest('li').text();
     $(this).parent().remove();
   });
 
 // remove item add to bought
   $('#list').on('click', '.basket', function(e) {
-    e.preventDefault(); 
+    e.preventDefault();
     var selectItem = $(this).closest('li').text();
     $('<li class="b_items"></li>').appendTo('#bought').html('<span><img class="check" src="images/check.png"/>' + selectItem + '</span>');
     $(this).parent().remove();
