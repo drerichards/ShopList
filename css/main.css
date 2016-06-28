@@ -14,23 +14,21 @@
 /**/
 
 body {
-  margin: 0;
-  position: relative;
-  width: 100%;
-  font-weight: 400;
-  font-style: normal;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    font-weight: 400;
+    font-style: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
-
 html, body {
-  position: relative;
-  overflow-x: hidden;
+    position: relative;
+    overflow-x: hidden;
 }
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -45,7 +43,6 @@ html, body {
     background-position: right;
     width: 100%;
     height: 100%;
-
     background-repeat: no-repeat;
     position: fixed;
 }
@@ -79,9 +76,9 @@ li {
 /*Body*/
 
 .list-body {
-    width: 55%;
+    width: 40%;
     height: 100%;
-    margin: 0.5% 0 0 10.5%;
+    margin: 0.5% 0 0 18.5%;
 }
 
 /**/
@@ -131,7 +128,7 @@ li {
     padding: 0.75% 1.5%;
     border: 0;
     height: 8.5%;
-    width: 30%;
+    width: 60%;
     border: 3px solid yellow;
     border-radius: 0.75%;
     -moz-border-radius: 10px;
@@ -209,17 +206,16 @@ li {
     /*margin-bottom: 2%;*/
     height: 35%;
 }
-
-.buy-header, .bought-header{
-  width: 100%;
-  height: 13.5%;
-  padding-left: 7px;
-  margin-top: 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-family: "A DAY WITHOUT SUN";
-  font-size: 55px;
-  color: white;
-  text-shadow: 2px 2px 4px #2b2a2b;
+.buy-header, .bought-header {
+    width: 100%;
+    height: 13.5%;
+    padding-left: 7px;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: "A DAY WITHOUT SUN";
+    font-size: 55px;
+    color: white;
+    text-shadow: 2px 2px 4px #2b2a2b;
 }
 .buy-header {
     background-color: #0dff00;
@@ -231,7 +227,7 @@ li {
 }
 .to-buy-container, .were-bought-container {
     background-color: white;
-    width: 54.35%;
+    width: 40%;
     height: 30%;
     opacity: 0.8;
     position: absolute;
@@ -368,5 +364,24 @@ li {
 @keyframes move {
     50% {
         opacity: 0.6;
+    }
+}
+@media screen and (max-width: 1270px) {
+    .list-body {
+        width: 50%;
+        margin: 0.5% 0 0 10.5%;
+    }
+    .to-buy-container, .were-bought-container {
+        width: 50%;
+    }
+    #textbox {
+        width: 65%;
+    }
+    #list, #bought {
+        height: 75%;
+        width: 80%;
+    }
+    .title h1 {
+        font-size: 5em;
     }
 }
