@@ -40,7 +40,7 @@
     width: 85%;
 }
 #list li, #bought li {
-    font-size: 1em;
+    font-size: 0.90em;
 }
 .items, li {
     margin-top: 0.4em;
