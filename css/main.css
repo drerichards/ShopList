@@ -305,10 +305,7 @@ li {
     /*z-index: 2;*/
     overflow: auto;
 }
-.basket {
-    margin-right: 1%;
-}
-.check {
+.basket, .check {
     margin-right: 1%;
 }
 .trash {
