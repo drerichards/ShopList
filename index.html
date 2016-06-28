@@ -1,76 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
 
 	<link rel="icon" type="image/png" href="images/favicon.png" />
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
+	<link rel="stylesheet" href="css/adapt.css" media="screen and (max-width: 600px)" />
+
 	<title>Shopping List</title>
 </head>
+
 <body>
-<div id="bkground">
-	<div class="list-body">
+	<div id="bkground">
+		<div class="list-body">
 
-		<!-- Title -->
-		<div class="title">
-			<p>q</p><h1>Shopping List</h1>
-		</div>
-
-		
-		<!-- /////////////////////////////// -->
-
-		
-		<!-- Entry Field -->
-		<div class="entryfield">
-			<!-- TextBox -->
-			<input id="textbox" type="text" placeholder="Enter Shopping Item"> 
+			<!-- Title -->
+			<div class="title">
+				<p>q</p>
+				<h1>Shopping List</h1>
+			</div>
 
 
-		<!-- /////////////////////////////// -->
+			<!-- /////////////////////////////// -->
 
 
-			<!-- Entry Button -->
-			<button class="entry-btn">+</button>
-		</div>
-
-		
-		<!-- /////////////////////////////// -->
+			<!-- Entry Field -->
+			<div class="entryfield">
+				<!-- TextBox -->
+				<input id="textbox" type="text" placeholder="Enter Shopping Item">
 
 
-		<!-- Buy Container 1 -->
-		<div class="container1">
-		<div class="buy-header">Things to Buy</div>	
-		<div class="to-buy-container"></div>
+				<!-- /////////////////////////////// -->
+
+
+				<!-- Entry Button -->
+				<button class="entry-btn">+</button>
+			</div>
+
+
+			<!-- /////////////////////////////// -->
+
+
+			<!-- Buy Container 1 -->
+			<div class="container1">
+				<div class="buy-header">Things to Buy</div>
+				<div class="to-buy-container"></div>
 				<ul id="list"></ul>
-		</div>
-		
-		
-		<!-- /////////////////////////////// -->
+			</div>
 
 
-		<!-- Bought Container 2 -->
-		<div class="container2">
-		<div class="bought-header">Things I Bought</div>
-		<div class="were-bought-container"></div>
+			<!-- /////////////////////////////// -->
+
+
+			<!-- Bought Container 2 -->
+			<div class="container2">
+				<div class="bought-header">Things I Bought</div>
+				<div class="were-bought-container"></div>
 				<ul id="bought"></ul>
+			</div>
+
+
+			<!-- /////////////////////////////// -->
+
+
+			<!-- Clear Button -->
+			<div class="clear-area">
+				<div id="clear-btn">
+					<button class="clear-btn">Clear List</button>
+				</div>
+			</div>
 		</div>
-
-
-		<!-- /////////////////////////////// -->
-
-
-		<!-- Clear Button -->
-		<div class="clear-area">
-			<div id="clear-btn"><button class="clear-btn">Clear List</button></div>
-		</div>	
 	</div>
-</div>
-		<!-- Javascript -->
-	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-	<script src="js/jquery.js"></script>
-	
+	<!-- Javascript -->
+<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+<script src="js/jquery.js"></script>
 </body>
+
 </html>
