@@ -4,6 +4,7 @@
 }
 .list-body {
     width: 85%;
+    height: 100%;
     margin: 2.5% auto;
 }
 .title {
@@ -16,7 +17,7 @@
     font-size: 4em;
 }
 .entryfield {
-    margin-top: 1.75%
+    margin-top: 1.75%;
 }
 #textbox {
     width: 75%;
@@ -26,10 +27,10 @@
     font-size: 20px;
 }
 .container1 {
-    margin-top: 7%;
+    margin-top: 5%;
 }
 .buy-header, .bought-header {
-    font-size: 2.3em;
+    font-size: 2.1em;
 }
 .to-buy-container, .were-bought-container {
     width: 85%;
@@ -39,7 +40,7 @@
     width: 85%;
 }
 #list li, #bought li {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 .items, li {
     margin-top: 0.4em;
